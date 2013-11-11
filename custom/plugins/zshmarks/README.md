@@ -1,7 +1,9 @@
 zshmarks
 ========
 
-A port of [Bashmarks (by Todd Werth)](https://github.com/twerth/bashmarks), a simple command line bookmarking plugin, for oh-my-zsh
+A copy of [Jocelyn Mallon](https://github.com/jocelynmallon)'s [zshmarks](https://github.com/jocelynmallon/zshmarks),
+which is itself a port of [Bashmarks (by Todd Werth)](https://github.com/twerth/bashmarks), a simple command line 
+bookmarking plugin, for oh-my-zsh
 
 How to install
 --------------
