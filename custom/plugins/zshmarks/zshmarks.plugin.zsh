@@ -30,7 +30,6 @@ function bookmark() {
 		fi
 	fi
 }
-alias b=bookmark
 
 function go() {
 	bookmark_name=$1
@@ -48,9 +47,12 @@ function go() {
 		unset dir
 	fi
 }
-alias g=go
 
 # Show a list of the bookmarks
 function showmarks() {
 	cat ~/.bookmarks | awk '{ printf "%-55s%-55s%s\n",$1,$2,$3}' FS=\|
 }
+
+alias b = bookmark
+alias g = go
+alias sm = showmarks
