@@ -53,6 +53,6 @@ function showmarks() {
 	cat ~/.bookmarks | awk '{ printf "%-55s%-55s%s\n",$1,$2,$3}' FS=\|
 }
 
-alias b = bookmark
-alias g = go
-alias sm = showmarks
+alias b=bookmark
+alias g=go
+alias sm=showmarks
