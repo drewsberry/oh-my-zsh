@@ -1,8 +1,12 @@
 printf '\033[0;34m%s\033[0m\n' "Upgrading Oh My Zsh"
 cd "$ZSH"
 <<<<<<< HEAD
+<<<<<<< HEAD
 #if git pull --rebase origin master
 if git pull origin master # Error with "rebase" option
+=======
+if git pull --rebase --stat origin master
+>>>>>>> upstream/master
 =======
 if git pull --rebase --stat origin master
 >>>>>>> upstream/master
