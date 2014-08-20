@@ -1,0 +1,3 @@
+[submodule "zshmarks"]
+    path = custom/plugins/zshmarks
+    url = https://github.com/jocelynmallon/zshmarks.git
